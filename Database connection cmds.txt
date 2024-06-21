@@ -1,0 +1,20 @@
+SQL --> Database connection cmds:
+
+sudo su
+yum update -y
+yum install MySQL -y
+MySQL -h (endpoint) -u admin -p 
+(pswd)
+show databases;
+
+Dynamo-db CMD'S--(Give Advance)
+
+#!/bin/bash
+sudo su
+yum update -y
+yum install httpd php git -y
+service httpd start
+chkconfig httpd on
+cd /var/www/html
+echo " When Kalki Release "> test.php
+git clone https://github.com/dilkkumar/BOV.git 
